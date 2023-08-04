@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<div id = "header">
+    <div class = "container">
+    <nav>
+        <img src ="Images/Zay%20logo.jpg" width="100px" height="100px">
+        <ul>
+        <li><a href = "#">HOME</a></li>
+         <li><a href = "#">ABOUT</a></li>
+         <li><a href = "#">SERVICES</a></li>
+         <li><a href = "#">CONTACT</a></li>
+        </ul>
+        </nav>
+        <div class = "header-text">
+        <p>Football player</p>
+        <h1>Hi, I'm</h1><span>Zay</span><br> From the bay A.K.A El sorbante 
+        </div>
+    </div>
+    </div>
+    
+    
+<!--About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Zay%20logo.jpg" alt="About Me Image">
+            </div>
+<!--            The <div> tag defines a division or a section in an HTML document.-->
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Grew up in .El sorbante</p>
+        <div class="tab-titles">
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('ventures')">Ventures</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Football entrepreneur</li>
+                <li><span>Marketing</span><br>Affordable Football Blackplates and Gloves </li>
+                <li><span>Football</span><br>RB,SS</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023 - Current</span><br>The Hidden Genius Project | Employee</li>
+                <li><span>2022 - 2026</span><br>Salesian college prepartory High school | sophomore</li>
+                <li><span>2022 - 2026 </span><br>Football player | </li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="ventures">
+            <ul>
+                <li><span>2023</span><br>Football apparel</li>
+                <li><span>2023</span><br>I got your backplates inc</li>
+                <li><span>2024</span><br>Future entrepreneur | Class of 2026</li>
+            </ul>
+        </div>
+    </div>
+      </div>
+        </div>
+    </div>
+    
+
+<!--                JavaScript-->
+            <script>
+                function opentab(tabId) {
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll('.tab-contents');
+    for (const tab of tabContents) {
+        tab.classList.remove('active-tab');
+    }
+
+    // Show the selected tab content
+    const selectedTab = document.getElementById(tabId);
+    if (selectedTab) {
+        selectedTab.classList.add('active-tab');
+    }
+}
+    </script>
+                
+<!-services->
+    
+    <div class="services">
+     <div class="container">
+         <h1> class="subtitle">My services</h1>
+         <div class="services-list">
+             <div>
+                 <i> class="fas fa-code></i>
+                 <h2>Ai Designing</h2>
+                 <p>How can we use Ai to create affordable, stylish Backplates and Football Appearl to give to our communites</p>
+             </div>
+             <div>
+                 <i class="fas fa-crop"></i>
+                 <h2>UI/UX design</h2>
+                 <p> This is a personal website is really just a way to see how a young black man took time and effort to recreate this website with his own twist.</p>
+                 <a>href="https://example.com/ui-ux-design>Learn more</a>
+             </div>
+             <div>
+                 <i class="fab fa-apple"></i>
+                 <h2>App design</h2>
+                 <p>Our mission is create Affordable, styleish Backplates and Football appearl to make look the cleanist on the field</p>
+                 <a href="https://example.com/app-design">Learn more</a>
+             </div>
+         </div>
+    </div>
+</div>       
+    
+    <!-Portfolio->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">My work</h1>
+            <div class="work-list">
+            <div class="work">
+            <img src = "images/work33.jpeg">
+            <div class= "layer">
+            <h3>Big Boi</h3>
+            <    
+                
+                </div>
